@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: Oswald;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(250, 80, 80);
+
+}
+
+/*header START*/
+.header {
+    padding: 0 7%;
+    background-color: black;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    box-shadow: 0px 0px 17px -2px rgba(255, 80, 80, 0.4);
+    color: white;
+    height: auto;
+    border: none;
+    margin: 20px 7%;
+    padding: 10px;
+    border-radius: 300px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+
+}
+
+.navbar img {
+    width: 150px;
+    height: 100px;
+}
+
+.navbar a {
+    list-style: none;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-buttons a {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.navbar ul li:hover {
+    color: rgb(250, 80, 80);
+}
+
+/*header END*/
+
+/* home START*/
+.section {
+    padding: 35px 7%;
+}
+
+.home {
+    min-height: 100vh;
+    background: url(images/home.png) no-repeat;
+
+    background-position: center;
+    padding: 50px;
+    height: calc(100vh - 100px);
+    background-size: 100% 100%;
+
+}
+
+.home-title {
+    width: 500px;
+    height: auto;
+    color: #fff;
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 120px;
+
+}
+
+.home-desc {
+    width: 600px;
+    height: auto;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.button {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 20px 40px;
+    margin: 50px 55px;
+    border-radius: 300px;
+    font-size: 18px;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgb(250, 80, 80);
+}
+
+/*home END*/
+
+/* menu START*/
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    padding: 0 7%;
+}
+.menu h2{
+    font-size: 50px;
+    padding: 0 8%;
+    font-family: "Sofia", sans-serif;
+
+}
+.menu h3{
+    font-size: 40px;
+    padding: 0 8%;
+}
+.menu .box-container .box img{
+    object-fit: cover;
+    width:70%;
+    height: 70%;
+    
+    
+}
+.price span{
+    padding: 10px;
+    text-decoration: line-through;
+}
+.menu .box-container .box{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+/* menu END*/
